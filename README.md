@@ -2,7 +2,7 @@
 
 ### Requires
 [s3cmd](https://github.com/kalantal/s3cmd) is required to move the objects.
-
+#
   s3-pingtest.sh
 > This script queries each s3 accessor to evaluate response times.
 > You should run this from a device where the application you are testing for will reside.
