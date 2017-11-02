@@ -100,7 +100,7 @@ echo -en '\nMoving empty objects\n'
 function emptyfiles {
 #make a temp vault to move empty files
 s3cmd mb s3://s3delete
-cat $itemlist | while read line ; do /s3cmd mv $line s3://s3delete --recursive --force ; done
+cat $itemlist | while read line ; do s3cmd mv $line s3://s3delete --recursive --force ; done
 #remove the temp vault
 s3cmd rb s3://s3delete --recursive --force
 }
