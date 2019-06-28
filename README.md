@@ -1,7 +1,7 @@
 # s3-tools
 
 ### Requires
-[s3cmd](https://github.com/kalantal/s3cmd) is required to move the objects.
+[s3cmd](https://github.com/s3tools/s3cmd) is required to move the objects.
 #
   s3-pingtest.sh
 > This script queries each s3 accessor to evaluate response times.
